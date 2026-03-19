@@ -1,0 +1,47 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.hero p {
+  font-size: 1.2rem;
+}
+
+section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.profile-img-wrapper img {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-img-wrapper img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+.social-icons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  font-size: 1rem;
+  color: #fff;
+  transition: transform 0.2s ease;
+}
+
+.social-icons a:hover {
+  transform: translateY(-3px);
+}
