@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SebveeTech | Portfolio</title>
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  
+  <!-- Bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#">SebVeeTech  | STV</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero text-center text-white d-flex align-items-center justify-content-center" style="height: 80vh; background: linear-gradient(135deg,#4facfe,#00f2fe);">
+  <div>
+    <h1>Hello, I’m SEBASTIAN</h1>
+    <p>Technical Consultant | Web Developer | PHP & Frontend Enthusiast</p>
+    <a href="#projects" class="btn btn-light btn-lg mt-3">View My Work</a>
+  </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="mb-5 text-center">About Me</h2>
+    
+    <div class="row align-items-center">
+      
+      <!-- Profile Image -->
+      <div class="col-md-4 text-center mb-4 mb-md-0">
+        <img src="images/profile.jpg" alt="Profile Picture" class="img-fluid rounded-circle shadow" style="max-width: 250px;">
+      </div>
+      
+      <!-- About Text -->
+      <div class="col-md-8">
+        <p>
+          I am a passionate developer with over <strong>25 years of experience</strong>, starting my journey in 2000.  
+          I specialize in creating <strong>modern web applications</strong> with clean, responsive designs and user-friendly interfaces.
+        </p>
+        <p>
+          I have a deep interest in <strong>technology and continuous learning</strong>, exploring new areas as requirements arise. My colleagues often consult me on challenges across:
+        </p>
+        <ul class="list-unstyled">
+          <li>💻 Web Technologies</li>
+          <li>🤖 IoT & Robotics</li>
+          <li>⚡ Electronics & Communication</li>
+          <li>🚀 Emerging Innovations</li>
+        </ul>
+        <p>
+          With broad technical expertise and a strong learning attitude, I solve problems creatively, adapt to new technologies, and deliver <strong>innovative, reliable, and practical solutions</strong>.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="mb-4">Projects</h2>
+    <div class="row g-4">
+      <!-- Project Card -->
+      <div class="col-md-4">
+        <div class="card shadow">
+          <img src="images/project_screenshot_1.png" class="card-img-top" alt="Student Registration Form">
+          <div class="card-body">
+            <h5 class="card-title">Student Registration Form</h5>
+            <p class="card-text">A modern PHP & Bootstrap registration form with validation and responsive card layout.</p>
+            <a href="https://github.com/sebveetech/registration_form_cardstyle" target="_blank" class="btn btn-primary btn-sm">View Repo</a>
+          </div>
+        </div>
+      </div>
+      <!-- Add more project cards here -->
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="py-5">
+  <div class="container">
+    <h2 class="mb-4">Contact</h2>
+    <p>You can reach me via email or visit my GitHub profile.</p>
+    <a href="mailto:your-email@example.com" class="btn btn-outline-dark me-2">Email Me</a>
+    <a href="https://github.com/sebveetech" target="_blank" class="btn btn-dark">GitHub Profile</a>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="text-center text-white bg-dark py-3">
+  © <?php echo date("Y"); ?> SebveeTech | All Rights Reserved
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
